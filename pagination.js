@@ -17,6 +17,7 @@ $(function(){
               html+='<li class="box"><a class="flex_child" data-id="'+parseInt(i)+'">'+parseInt(i)+'</a></li>'
             }
           }
+          
           // html+='<li class="box"><input type="text" class="number" id="jump"></li>'
           html+='<li id="next" data-id="next" class="box flex_child">></li>'
           html+='<li id="last" data-id="last" class="box flex_child">》</li>'
