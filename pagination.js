@@ -25,7 +25,7 @@ $(function(){
 
           $('.nowPage').html(now);
           $('.totalPage').html(total);
-          // $('#jump').val(now);
+          $('#jump').val(now);
            // 分页的显示和隐藏
           $('.box a').each(function(index){
             var text=$(this).text();
