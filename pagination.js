@@ -97,6 +97,7 @@ $(function(){
           })
         })
       }
+      
       $.fn.extend({
         paginator:paginator
       })
