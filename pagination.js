@@ -1,6 +1,6 @@
 $(function () {
     function paginator(opts) {
-        var now = opts.currentPage;
+        var now = opts.currentPage|| 1;
         var total = opts.totalPage;
         var callback = opts.callback;
         callback && callback(now);
