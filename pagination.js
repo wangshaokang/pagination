@@ -14,7 +14,7 @@ $(function () {
             html += '<div class="clearfix pagination-content">'
             html += '<ul class="clearfix pagination_list">'
             html += '<li id="first"><span class="first"></span></li>'
-            html += '<li id="prev"><span class="prev"></span><</li>'
+            html += '<li id="prev"><span class="prev"></span></li>'
 
             for (var i = 1; i <= total; i++) {
                 if (parseInt(now) == i) {
